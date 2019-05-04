@@ -48,10 +48,33 @@ body{
 .front-face{
 transform: rotateY(180deg);
 }
-#button{
+.button{
     width: 80px;
     height: 50px;
     background-color: black;
     color: white;
-    radius:10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   
+}
+#score-div{
+    position:absolute;
+    margin-top:20%;
+    margin-left:10%;
+    font-size:35px;
+    background-color: white;
+    padding: 10px;
+    box-shadow:4px 4px 0px 1px #808080;
+
+}
+#restart-div{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:orangered;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    display:none;
+    opacity: 0.8;
 }
